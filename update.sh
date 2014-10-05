@@ -8,9 +8,9 @@ fi
 git pull
 tox -e testcoverage-html
 git checkout master
-rm -rf htmlcoverage
-cp -r docs/build/htmlcoverage htmlcoverage
-git add htmlcoverage/
-git commit -m "Update htmlcoverage" -a
-git push
-rm -rf docs/build
+#rm -rf htmlcoverage
+#cp -r docs/build/htmlcoverage htmlcoverage
+#git add htmlcoverage/
+#git commit -m "Update htmlcoverage" -a
+#git push
+#rm -rf docs/build
